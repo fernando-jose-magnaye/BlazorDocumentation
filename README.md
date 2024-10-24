@@ -91,3 +91,39 @@ This guide provides step-by-step instructions to create a Blazor web application
            </LayoutView>
        </NotFound>
    </Router>
+   ## Step 8: Test Your Application
+
+1. **Run the Application**:
+   - Use the built-in development server by pressing `F5` or clicking the Start button in Visual Studio.
+   - The application will launch in your default web browser.
+
+2. **Create Users**:
+   - Manually add users with different roles in your database (using a database management tool) or implement a registration feature.
+
+3. **Check Role Access**:
+   - Navigate to the various pages (Admin, Manager, User).
+   - Verify that:
+     - Admin users can access the Admin page.
+     - Manager users can access the Manager page.
+     - User accounts can access the User page.
+   - Ensure unauthorized users are redirected or shown a message when trying to access restricted pages.
+
+## Step 9: Improve and Deploy
+
+1. **Enhance the UI**:
+   - Consider using Bootstrap or Tailwind CSS for better styling and responsiveness.
+   - Create a layout in `Shared/MainLayout.razor` to standardize your pages.
+   - Use components to avoid duplication and make the app easier to maintain.
+
+2. **Deploy Your Application**:
+   - Choose a hosting platform (e.g., Azure, IIS, or any cloud provider).
+   - Follow the deployment instructions specific to your chosen platform.
+   - For Azure:
+     - Create an App Service in the Azure Portal.
+     - Publish your application directly from Visual Studio by right-clicking the project and selecting **Publish**.
+   - Ensure your connection strings and settings are configured correctly in the production environment.
+
+## Conclusion
+
+This guide provides a foundational framework for building a Blazor web application with role-based access control. Each step can be expanded upon based on specific project requirements. If you have any questions or need further assistance, feel free to ask!
+
