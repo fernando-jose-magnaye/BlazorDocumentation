@@ -91,7 +91,8 @@ This guide provides step-by-step instructions to create a Blazor web application
            </LayoutView>
        </NotFound>
    </Router>
-   ## Step 8: Test Your Application
+
+## Step 8: Test Your Application
 
 1. **Run the Application**:
    - Use the built-in development server by pressing `F5` or clicking the Start button in Visual Studio.
@@ -125,5 +126,10 @@ This guide provides step-by-step instructions to create a Blazor web application
 
 ## Conclusion
 
-This guide provides a foundational framework for building a Blazor web application with role-based access control. Each step can be expanded upon based on specific project requirements. If you have any questions or need further assistance, feel free to ask!
+This guide provides a foundational framework for building a Blazor web application with role-based access control. Each step can be expanded upon based on specific project requirements. Testing your application thoroughly and ensuring proper role management is crucial for a secure application. If you have any questions or need further assistance, feel free to ask!
 
+## Additional Resources
+
+For more detailed documentation, check out the following links:
+- [Link 1](https://teams.live.com/l/message/19:bcyYKvEXfhUXYFi7Ru3amsIsuz-hgXA_vaMPHoFmYbs1@thread.v2/1729734420966?context=%7B%22contextType%22%3A%22chat%22%7D)
+- [Link 2](https://teams.live.com/l/message/19:bcyYKvEXfhUXYFi7Ru3amsIsuz-hgXA_vaMPHoFmYbs1@thread.v2/1729734478056?context=%7B%22contextType%22%3A%22chat%22%7D)
